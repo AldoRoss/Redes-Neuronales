@@ -24,5 +24,21 @@ def frankRosenblatt(x,w,b):
         return output
     return output
 
+#Modelado de una compuerta and con McCulloch y Ditts
+x1 = 1
+x2 = 1
+Entradas = [x1, x2]
+i = 0
+u = 1
+output = mycNeuron(Entradas,i,u)
+print(output)
 
+#Modelado de una compuerta or con McCulloch y Ditts
+x1 = 1
+x2 = 1
+Entradas = [x1, x2]
+i = 0
+u = 2
+output = mycNeuron(Entradas,i,u)
+print(output)
 
